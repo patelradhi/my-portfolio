@@ -53,9 +53,9 @@ export default function SketchRise() {
       <div className="featured-desc">
         <div>
           <h4>The Idea</h4>
-          <p>Turning 2D floor plans into 3D visualizations usually takes hours and clunky tools. I wanted to see how fast and simple AI could make it.</p>
+          <p>Turning a 2D floor plan into a 3D view normally means hours in clunky tools. I wanted to see how far AI could shortcut that.</p>
           <h4>What I Built</h4>
-          <p>SketchRise takes any 2D floor plan — hand-drawn or digital — and renders a photorealistic 3D space in under 2 seconds. Walls, doors, windows, and lighting are auto-detected. No manual modeling.</p>
+          <p>SketchRise renders any floor plan — hand-drawn or digital — into a photorealistic 3D space in under 2 seconds, auto-detecting walls, doors, windows, and lighting.</p>
 
           <div className="mobile-callout">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

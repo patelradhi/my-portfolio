@@ -62,6 +62,23 @@ export const sketchRise = {
 	techStack: ['TypeScript', 'React', 'React Native', 'Node.js', 'Express', 'MongoDB', 'Clerk', 'Redis'],
 };
 
+export const hireLoop = {
+	name: 'HireLoop',
+	tagline: 'A full-stack job marketplace where candidates and recruiters meet — browse, apply, and manage hiring end to end.',
+	github: 'https://github.com/patelradhi/HireLoop',
+	stats: [
+		{ num: '2', lbl: 'Roles — Seeker & Recruiter' },
+		{ num: 'Full', lbl: 'Stack — React + Supabase' },
+		{ num: 'Live', lbl: 'Deployed on Vercel' },
+		{ num: 'Clerk', lbl: 'Secured Auth' },
+	],
+	images: [
+		{ src: '/images/hireloop-hero.png', alt: 'HireLoop landing page' },
+		{ src: '/images/hireloop-jobs.png', alt: 'HireLoop job listings and dashboards' },
+	],
+	techStack: ['JavaScript', 'React', 'Vite', 'Tailwind', 'shadcn/ui', 'Supabase', 'Clerk'],
+};
+
 export const projects = [
 	{
 		title: 'AI Recipe Generator',
@@ -69,13 +86,6 @@ export const projects = [
 		description:
 			'A smart recipe generator that takes whatever ingredients you have on hand and returns step-by-step recipes you can actually cook. Built to solve the daily "what should I make for dinner?" question with an AI-powered suggestion engine.',
 		link: 'https://github.com/patelradhi/ai-recipe-generator',
-	},
-	{
-		title: 'HireLoop',
-		type: 'Web App · JavaScript',
-		description:
-			'A full-stack job board and hiring platform that connects job seekers with recruiters. Includes role-based dashboards, application tracking, profile management, and a clean job-search experience for candidates.',
-		link: 'https://github.com/patelradhi/HireLoop',
 	},
 	{
 		title: 'Shopyy',
@@ -97,6 +107,5 @@ export const projects = [
 		description:
 			'A blogging platform where users can write, publish, and manage their own posts. Includes a rich-text editor, author profiles, post categorization, and a clean reading experience focused on typography and content-first design.',
 		link: 'https://github.com/patelradhi/Blogger',
-		fullWidth: true,
 	},
 ];

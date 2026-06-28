@@ -1,4 +1,5 @@
 import SketchRise from './SketchRise';
+import HireLoop from './HireLoop';
 import ProjectCard from './ProjectCard';
 import { projects } from '../data';
 
@@ -17,6 +18,10 @@ export default function Work() {
         </div>
 
         <SketchRise />
+
+        <div style={{ marginTop: '40px' }}>
+          <HireLoop />
+        </div>
 
         <div className="reveal" style={{ marginTop: '80px' }}>
           <div className="section-label">More Work</div>
