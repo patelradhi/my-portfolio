@@ -64,7 +64,8 @@ export const sketchRise = {
 
 export const hireLoop = {
 	name: 'HireLoop',
-	tagline: 'A full-stack job marketplace where candidates and recruiters meet — browse, apply, and manage hiring end to end.',
+	tagline:
+		'A full-stack job marketplace where candidates and recruiters meet — browse, apply, and manage hiring end to end.',
 	github: 'https://github.com/patelradhi/HireLoop',
 	stats: [
 		{ num: '2', lbl: 'Roles — Seeker & Recruiter' },
@@ -81,13 +82,6 @@ export const hireLoop = {
 
 export const projects = [
 	{
-		title: 'AI Recipe Generator',
-		type: 'AI · TypeScript',
-		description:
-			'A smart recipe generator that takes whatever ingredients you have on hand and returns step-by-step recipes you can actually cook. Built to solve the daily "what should I make for dinner?" question with an AI-powered suggestion engine.',
-		link: 'https://github.com/patelradhi/ai-recipe-generator',
-	},
-	{
 		title: 'Shopyy',
 		type: 'E-commerce · JavaScript',
 		description:
@@ -100,12 +94,5 @@ export const projects = [
 		description:
 			'A social media clone inspired by Instagram — featuring photo uploads, a personalized feed, likes, comments, and user profiles. A deep dive into building social-network-style flows and image-heavy UX from scratch.',
 		link: 'https://github.com/patelradhi/Insta-Clone',
-	},
-	{
-		title: 'Blogger',
-		type: 'Content Platform · JavaScript',
-		description:
-			'A blogging platform where users can write, publish, and manage their own posts. Includes a rich-text editor, author profiles, post categorization, and a clean reading experience focused on typography and content-first design.',
-		link: 'https://github.com/patelradhi/Blogger',
 	},
 ];
